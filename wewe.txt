@@ -19,8 +19,14 @@ git branch 可以查看当前有哪些分支，可以方便切换
 git merge dev  
   把当前分支（git branch 命令输出前面带星号的分支）与指定dev 分支进行合并 
 
+当主分支合并副分支后主分支可以查看到副分支所有保存内容，此时在主分支修改内容并提交，再切换到
+副分支时无法获取主分支的修改储存，需要再次合并分支操作，方能使主副分支内容一致！
 
-我是 bin-dev  、
-我要通过bin-dev 修改的
+git push https://github.com/binxin1994/-.git master 上传网络
 
-我是主分支提交的
+git pull https://github.com/binxin1994/-.git master  下载
+git clone https://github.com/binxin1994/-.git 下载直接覆盖本地
+
+Git 分布式 版本控制工具
+可以进行代码恢复工具
+集中式版本控制系统 svn
